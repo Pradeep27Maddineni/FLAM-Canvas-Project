@@ -1,4 +1,4 @@
-# 🎨 Collaborative Canvas
+# Collaborative Canvas
 
 A **real-time collaborative drawing application** built using  
 **Vanilla JavaScript**, **HTML5 Canvas**, **Node.js**, and **Socket.io**.
@@ -73,4 +73,37 @@ You should see the collaborative drawing canvas load.
 | Documentation | 1 hour |
 | **Total** | **15 hours (approx.)** |
 
----# FLAM-Canvas-Project
+---
+
+## 🚀 Submission Method
+
+Please follow the steps below to submit your project for review.
+
+###  GitHub Repository
+
+- Push complete project to a GitHub repository.  
+- Repository can be **public** or **private** (but must grant access to reviewers).  
+- Make sure your repo includes:
+  - `/client` folder (frontend files: `index.html`, `style.css`, `canvas.js`, `websocket.js`, etc.)
+  - `/server` folder (backend files: `server.js`, `rooms.js`, `drawing-state.js`, etc.)
+  - `README.md` (setup instructions, testing guide, known limitations)
+  - `ARCHITECTURE.md` (architecture overview and technical explanation)
+  - `package.json` (dependencies and start scripts)
+
+Example repository structure:
+```bash
+collaborative-canvas/
+├── client/
+│   ├── index.html
+│   ├── style.css
+│   ├── canvas.js
+│   ├── websocket.js
+│   └── main.js
+├── server/
+│   ├── server.js
+│   ├── rooms.js
+│   └── drawing-state.js
+├── README.md
+├── ARCHITECTURE.md
+└── package.json
+
